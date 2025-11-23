@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kirnstein Reglos Web Portfolio</title>
+        <link rel="stylesheet" href="index.css">
+
+        <!-- BOX ICONS -->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Licorice&family=Bona+Nova&family=Blinker&family=Bodoni+Moda+SC&family=Monomaniac+One&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+     <!-- HEADER -->
+
+        <header class="header">
+            <a href="#home" class="logo">
+                KIRNSTEIN <span class="reglos">REGLOS</span>
+            </a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </header>
+     <!-- HOME -->
+        <section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi, It's <span class="kirnstein"> Kirnstein</span></h1>
+        <h3>
+            I'm a <span class="web">Web Developer</span>
+        </h3>
+        <p><b>I design clean, modern digital experiences that help brands share their stories online.
+            As Steve Jobs once said, Design is not just what it looks like and feels like. 
+            Design is how it works. Watch my introduction, or connect with me directly.</b></p>
+        <div class="home-button">
+            <a class="btn" id="CVbtn">Click Video</a>
+        </div>
+    </div>
+
+    <div class="home-img">
+        <img src="images/pfp.jpg" alt="Kirnstein Image">
+    </div>
+</section>
+
+<!-- VIDEO MODAL (OFFLINE VIDEO VERSION) -->
+<div class="modal" id="videoModal">
+    <div class="modal-content video-modal">
+        <span class="close-btn" id="closeVideo">&times;</span>
+        <h2>My Introduction Video</h2>
+
+        <div class="video-wrapper">
+            <video id="introVideo" controls controlsList="nodownload" disablePictureInPicture>
+                <source src="video/introduction.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+    <div class="about-img">
+        <img src="images/aboutme.jpg" alt="Kirnstein Image">
+    </div>
+
+    <div class="about-content">
+        <h2>About <span class="me">Me</span></h2>
+
+        <p>I graduated with a Bachelor of Science in Information Technology from City College of Calamba, and 
+           I’m also an NC3 passer. My journey into web development started in an unexpected way. From makeup artistry to web development, 
+           I’ve always loved blending creativity and logic—now I bring that artistry into the digital world.
+        </p>
+        <div class="about-buttons">
+            <a class="btn" id="readMoreBtn">Read More</a>
+            <a class="btn" id="missionVisionBtn">Mission & Vision</a>
+        </div>
+    </div>
+</section>
+
+<!-- RESUME MODAL -->
+<div class="modal" id="resumeModal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeResume">&times;</span>
+        <h2>My Resume</h2>
+        
+        <iframe  src="files/Reglos_WorkResume.pdf"
+            class="resume-frame"></iframe>
+
+        <a href="files/Reglos_WorkResume.pdf" download class="download-btn">Download Resume</a>
+    </div>
+</div>
+
+<!-- MISSION & VISION MODAL -->
+<div class="modal" id="mvModal">
+    <div class="modal-content small-modal">
+        <span class="close-btn" id="closeMV">&times;</span>
+
+        <div class="mv-container">
+            <h2>Mission & Vision</h2>
+
+            <div class="mv-box">
+                <h3>Mission</h3>
+                <p>
+                    To create meaningful, accessible, and visually expressive digital
+                    experiences that empower users, businesses, and brands.
+                </p>
+            </div>
+
+            <div class="mv-box">
+                <h3>Vision</h3>
+                <p>
+                    To grow into a developer who inspires creativity and innovation
+                    through impactful digital solutions and modern web experiences.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!--SKILLS-->
+
+   <section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skills-box">
+    <i class="bx bxl-figma"></i>
+    <div class="skills-info">
+        <h4>UI / UX Design</h4>
+        <ul class="skills-list">
+            <li>Designs clean and user-friendly interfaces.</li>
+            <li>Skilled in Figma, Canva, and Adobe for visual creation.</li>
+            <li>Strong focus on colors, layouts, and typography.</li>
+            <li>Creates intuitive navigation for better user experience.</li>
+            <li>Develops wireframes and prototypes to test ideas effectively.</li>
+        </ul>
+    </div>
+</div>
+
+
+        <div class="skills-box">
+            <i class="bx bx-code-alt"></i>
+            <div class="skills-info">
+                <h4>Front-End Developer</h4>
+                <ul class="skills-list">
+                    <li>Designs clean and user-friendly interfaces.</li>
+                    <li>Skilled in Figma, Canva, and Adobe for visual creation.</li>
+                    <li>Strong focus on colors, layouts, and typography.</li>
+                    <li>Creates intuitive navigation for better user experience.</li>
+                    <li>Develops wireframes and prototypes to test ideas effectively.</li>
+                </ul>            
+            </div>
+        </div>
+
+        <div class="skills-box">
+            <i class="bx bx-cog"></i>
+            <div class="skills-info">
+                <h4>Optimization</h4>
+                <ul class="skills-list">
+                    <li>Designs clean and user-friendly interfaces.</li>
+                    <li>Skilled in Figma, Canva, and Adobe for visual creation.</li>
+                    <li>Strong focus on colors, layouts, and typography.</li>
+                    <li>Creates intuitive navigation for better user experience.</li>
+                    <li>Develops wireframes and prototypes to test ideas effectively.</li>
+                </ul> 
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Project-->
+<section class="projects section" id="projects">
+  <h2 class="heading">Projects</h2>
+
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="images/apple.png" alt="Project 1 Image">
+        <h3 class="project-title">SKETCH</h3>
+      <p class="project-description">
+        A hand-sketched apple in vibrant detail, turning a simple fruit into a symbol of 
+        growth and creativity. Precision meets inspiration on a blank canvas.
+      </p>
+      <div class="btn" id="project1Btn">Review Project</div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <img src="images/comic1.jpg" alt="Project 1 Image">
+        <h3 class="project-title">COMIC</h3>
+      <p class="project-description">
+        The comics theme poster is created to unlock interest 
+        together with visual nostalgia to trigger interest
+      </p>
+      <div class="btn" id="project2Btn">Review Project</div>
+
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+        <img src="images/gecko.png" alt="Project 1 Image">
+        <h3 class="project-title">LOGO</h3>
+      <p class="project-description">
+        The project used the Gecko animal to symbolize life and as well as provide an impression for the animal sanctuary. 
+        The green palette was further used to symbolized nature. 
+      </p>
+      <div class="btn" id="project3Btn">Review Project</div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+        <img src="images/bh1.png" alt="Project 1 Image">
+        <h3 class="project-title">CLIENT BASED</h3>
+      <p class="project-description">
+       A cozy, eye-catching promo for Brew Haven’s Pumpkin Spice drink. Warm tones, inviting design, 
+       and playful typography capture the essence of fall, enticing customers to savor every seasonal sip.
+      </p>
+      <div class="btn" id="project4Btn">Review Project</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Project Modal -->
+<!-- Project 1 -->
+
+<div class="modal" id="project1Modal">
+    <div class="modal-content project-modal-box">
+        <span class="close-btn" id="closeproject1">&times;</span>
+
+        <div class="project-wrapper"> 
+            <h2 class="modal-title">SKETCH</h2>
+
+            <div class="project-body">
+                <img class="project-image" src="images/apple.png" alt="Project 1 Image">
+                
+                <div class="modal-details">
+                    <p><b>Subject:</b> Apple</p>
+                    <p><b>Tools:</b> Colored Pencil, Professional</p>
+                    <p><b>Version:</b> Vectorized</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project 2 -->
+
+<div class="modal" id="project2Modal">
+    <div class="modal-content project-modal-box">
+        <span class="close-btn" id="closeproject2">&times;</span>
+
+        <div class="project-wrapper"> 
+            <h2 class="modal-title">Comic</h2>
+
+            <div class="project-body">
+                <img class="project-image" src="images/comic.png" alt="Project 2 Image">
+
+                 <div class="modal-details">
+                    <p><b>Theme:</b> Comics</p>
+                    <p><b>Products:</b> Digital Poster for Academic use.</p>
+                    <p><b>Tools:</b> Canva</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Project 3 -->
+
+<div class="modal" id="project3Modal">
+    <div class="modal-content project-modal-box">
+        <span class="close-btn" id="closeproject3">&times;</span>
+
+        <div class="project-wrapper"> 
+            <h2 class="modal-title">Logo</h2>
+
+            <div class="project-body">
+                <img class="project-image" src="images/gecko2.png" alt="gecko 3 Image">
+                <img class="project-image" src="images/gecko.png" alt="gecko 3 Image">
+                <img class="project-image" src="images/gecko3.png" alt="gecko 3 Image">
+                <img class="project-image" src="images/gecko5.png" alt="gecko 3 Image">
+
+                 <div class="modal-details">
+                    <p><b>Subject:</b> Gecko</p>
+                    <p><b>Products:</b> Badge Logo, Icon Logo, Horizontal Logo, Mood Board</p>
+                    <p><b>Project Aim:</b> Create various logo for the Gecko Sanctuary</p>
+                    <p><b>Tool:</b> Canva</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Project 4 -->
+
+<div class="modal" id="project4Modal">
+    <div class="modal-content project-modal-box">
+        <span class="close-btn" id="closeproject4">&times;</span>
+
+        <div class="project-wrapper"> 
+            <h2 class="modal-title">Comic</h2>
+
+            <div class="project-body">
+                <img class="project-image" src="images/bh1.png" alt="Project 4 Image">
+                <img class="project-image" src="images/bh2.png" alt="Project 4 Image">
+                <img class="project-image" src="images/bh3.png" alt="Project 4 Image">
+                <img class="project-image" src="images/bh4.png" alt="Project 4 Image">
+                <img class="project-image" src="images/bh5.png" alt="Project 4 Image">
+
+                 <div class="modal-details">
+                    <p><b>Products:</b> Logo, Social Media Post, 
+                        Newsletter, Landing Page, Banner Ads</p>
+                    <p><b>Tool:</b> Canva</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <div class="contact-wrapper">
+
+        <!-- LEFT SIDE (Contact Details like design #1) -->
+        <div class="contact-details">
+            <span class="contact-availabilities">Currently accepting new collaborations</span>
+
+            <h3>Let’s build together</h3>
+
+            <p class="contact-lead">
+                Whether you have a concept in mind or just a question, drop a note and I’ll respond within a day.
+            </p>
+
+           <ul class="contact-meta">
+    <li>
+        <span class="label">Email</span>
+        <a href="kcsolger3435@gmail.com">kcsolger3435gmail.com</a>
+    </li>
+    <li>
+        <span class="label">Location</span>
+        <a>Laguna, Philippines</a>
+    </li>
+</ul>
+            <div class="social-links">
+                <a class="social-pill" href="https://www.facebook.com/buding.pangki.9" target="_blank">Facebook</a>
+                <a class="social-pill" href="https://www.instagram.com/dengbusolger/" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE (Form using your class names) -->
+         <form class="contact-form" action="#">
+
+            <span class="contact-availability">
+                If you'd like to collaborate or just say hello, let’s start a conversation.
+            </span>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+    </div>
+     <div class="social-icons">
+            <a href="kcsolger3435@gmail.com">
+                <i class="bx bx-envelope"></i>
+            </a>
+
+            <a href="https://www.facebook.com/buding.pangki.9">
+               <i class="bx bxl-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/dengbusolger/">
+               <i class=" bx bxl-instagram"></i>
+            </a>
+
+            <a href="https://github.com/budingsolger">
+               <i class=" bx bxl-github"></i>
+            </a>
+        </div>
+       
+</section>
+    <footer class="footer">
+        <ul class="list">
+            <li>
+                <a href="#" id="faqBtn">FAQ</a>
+            </li>
+            
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <!-- FAQ Modal -->
+<div class="modal" id="faqModal">
+    <div class="modal-content faq-modal">
+        <span class="close-btn" id="closeFaq">&times;</span>
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-container">
+
+            <div class="faq-box">
+                <h3>What tools do you use for design?</h3>
+                <p>I work with Figma, Canva, and Adobe Creative Suite to create clean, modern, and intuitive designs.</p>
+            </div>
+
+            <div class="faq-box">
+                <h3>What coding languages do you use?</h3>
+                <p>My front-end development is built with HTML, CSS, and JavaScript, ensuring websites are responsive and interactive.</p>
+            </div>
+
+            <div class="faq-box">
+                <h3>How do you optimize websites for performance?</h3>
+                <p>I improve speed and user experience by compressing images, cleaning unused code, and applying caching techniques.</p>
+            </div>
+
+            <div class="faq-box">
+                <h3>Do you work on freelance projects?</h3>
+                <p>Yes, I’m open to freelance opportunities and collaborations. You can reach me through the contact details in my portfolio.</p>
+            </div>
+
+            <div class="faq-box">
+                <h3>Why choose you as a web developer?</h3>
+                <p>I combine creativity and technical skills—coming from both design and development backgrounds—to deliver websites that are visually appealing, functional, and efficient.</p>
+            </div>
+
+            <div class="faq-box">
+                <h3>What is Website Optimization?</h3>
+                <p>Website Optimization improves performance, speed, and accessibility. 
+                It includes optimizing images, code, and load times to enhance UX and SEO ranking.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        <p class="copyright">&#169; Kirnstein Reglos | All rigths reserved</p>           
+    </footer>
+
+    <script src="index.js"></script>    
+    </body>
+    </html>
